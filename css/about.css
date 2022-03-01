@@ -1,0 +1,141 @@
+/* About Us */
+.about-us {
+  height: 450px;
+  color: #FEFCF7;
+  padding: 0px 50px;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px 50px 50px;
+  background: url("../images/aboutus.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us__com {
+  top: 50%;
+  left: 5%;
+  z-index: 2;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.about-us__com h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+}
+
+.about-us__com p {
+  width: 445px;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+/* Commitment */
+.commitment {
+  margin: 100px 0px;
+  padding: 0px 50px;
+}
+
+.commitment__com {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333D4B;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.commitment h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.commitment p {
+  margin: auto;
+  width: 540px;
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 26px;
+}
+
+/* Quality */
+.quality {
+  padding: 0px 50px;
+  margin: 200px 50px;
+  border-radius: 10px;
+  background-color: #2C343E;
+}
+
+.quality__com {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FEFCF7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.quality h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.quality p {
+  opacity: .8;
+  margin: auto;
+  width: 540px;
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 26px;
+}
+
+.quality img {
+  top: -100px;
+  position: relative;
+}
+
+/* Country */
+.country {
+  padding: 0px 50px;
+  margin-bottom: 50px;
+}
+
+.country h2 {
+  font-size: 24px;
+  color: #83888F;
+  font-weight: 900;
+  margin: 0px 0px 50px 130px;
+}
+
+.country__com {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.country__card {
+  color: #333D4B;
+}
+
+.country__card h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 25px 0px 25px;
+}
+
+.country__card p {
+  width: 156px;
+  line-height: 1.8;
+}
+/*# sourceMappingURL=about.css.map */

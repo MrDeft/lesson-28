@@ -1,0 +1,116 @@
+/* About Us */
+.about-us {
+  height: 450px;
+  color: #FEFCF7;
+  padding: 0px 50px;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px 50px 50px;
+  background: url("../images/aboutus.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__com {
+    top: 50%;
+    left: 5%;
+    z-index: 2;
+    position: absolute;
+    transform: translateY(-50%);
+    h1{
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 48px;
+    }
+    p {
+      width: 445px;
+      font-size: 16px;
+      margin-top: 20px;
+      line-height: 26px;
+    }
+  }
+}
+
+/* Commitment */
+.commitment {
+  margin: 100px 0px;
+  padding: 0px 50px;
+
+  &__com {
+    display: flex;
+    color: #333D4B;
+    align-items: center;
+    justify-content: space-around;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  p {
+    margin: auto;
+    width: 540px;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 26px;
+  }
+}
+
+/* Quality */
+.quality {
+  padding: 0px 50px;
+  margin: 200px 50px;
+  border-radius: 10px;
+  background-color: #2C343E;
+  &__com {
+    display: flex;
+    color: #FEFCF7;
+    align-items: center;
+    justify-content: space-around;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  p {
+    opacity: .8;
+    margin: auto;
+    width: 540px;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 26px;
+  }
+  img {
+    top: -100px;
+    position: relative;
+  }
+}
+
+/* Country */
+.country {
+  padding: 0px 50px;
+  margin-bottom: 50px;
+  
+  h2 {
+    font-size: 24px;
+    color: #83888F;
+    font-weight: 900;
+    margin: 0px 0px 50px 130px;
+  }
+
+  &__com {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__card {
+    color: #333D4B;
+    h1 {
+      font-size: 32px;
+      font-weight: 900;
+      margin: 25px 0px 25px;
+    }
+    p {
+      width: 156px;
+      line-height: 1.8;
+    }
+  }
+} 
